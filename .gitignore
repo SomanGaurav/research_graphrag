@@ -1,0 +1,57 @@
+# Environment
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs / outputs
+logs/
+outputs/
+
+# Neo4j
+data/
+plugins/
+import/
+
+# Ollama / models (if local)
+models/
+
+# Docker
+*.log
+
+# SQLite
+*.sqlite3
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# UV
+uv.lock
